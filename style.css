@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff8f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff6b81;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url('https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero button {
+    background-color: #fff;
+    color: #ff6b81;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #ffe1e6;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.post {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.post:hover {
+    transform: scale(1.03);
+}
+
+.post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post h3 {
+    margin: 15px;
+    color: #ff6b81;
+}
+
+.post p {
+    margin: 0 15px 20px;
+    font-size: 0.95em;
+}
+
+.about, .contact {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.contact button {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #ff8799;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
